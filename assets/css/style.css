@@ -198,6 +198,11 @@
 }
 
 @media only screen and (max-width:768px) {
+    .navbar {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
     .hamburger {
         display: block;
     }
@@ -229,5 +234,47 @@
 
     .hero_img {
         display: none;
+    }
+}
+
+@media only screen and (max-width:426px) {
+    .navbar {
+        padding-left: 1.5rem;
+        padding-right: 1.6rem;
+    }
+
+    .logo-title {
+        color: var(--title-color);
+        font-family: var(--primary-font);
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media only screen and (max-width:376px) {
+    .hero_title_div>.hero_name {
+        font-family: var(--primary-font);
+        color: var(--primary-color);
+        font-weight: 700;
+        font-size: 1.3rem;
+    }
+
+    .hero_details>.hero_desc {
+        font-family: var(--secondary-font);
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: 300;
+        text-align: left;
+        font-size: 11px;
+    }
+
+    .contact_btn,
+    .resume_btn {
+        font-size: 11px;
+    }
+
+    .hero {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
     }
 }
