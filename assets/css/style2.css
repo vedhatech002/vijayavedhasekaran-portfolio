@@ -16,10 +16,6 @@
     --secondary-font: 'Work Sans', sans-serif;
 }
 
-.body {
-    scroll-behavior: smooth;
-}
-
 .navbar {
     display: flex;
     flex-direction: row;
@@ -27,7 +23,7 @@
     align-items: center;
     padding-left: 3rem;
     padding-right: 3rem;
-    background-color: var(--container-color);
+    background-color: white;
 }
 
 .logo_div {
@@ -36,7 +32,7 @@
 }
 
 .logo-title {
-    color: var(--title-color);
+    color: blue;
     font-family: var(--primary-font);
     font-weight: 600;
 }
@@ -50,7 +46,7 @@
 
 .nav_link {
     text-decoration: none;
-    color: var(--title-color);
+    color: blue;
     font-family: var(--primary-font);
     font-size: 16px;
     font-weight: 500;
@@ -64,7 +60,7 @@
 .bar2 {
     width: 35px;
     height: 2.5px;
-    background-color: #ffff;
+    background-color: blue;
     margin-top: 8px;
     transition: 0.4s;
     border-radius: 8px;
@@ -103,7 +99,7 @@
     justify-content: center;
     align-items: center;
     justify-items: center;
-    background-color: var(--container-color);
+    background-color: white;
     padding-top: 2rem;
 }
 
@@ -170,175 +166,8 @@
 
 /* ===================================About============================================ */
 .about_section {
-    background-color: #1C1A18;
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    align-items: center;
-    justify-items: center;
-    padding: 4rem 8rem;
+    background-color: #4E3636;
 }
-
-.img_sec {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-}
-
-.img_div {
-    border: 3px solid red;
-    width: fit-content;
-    border-radius: 50%;
-
-}
-
-.img_div img {
-    border-radius: 50%;
-}
-
-.about_desc {
-    display: flex;
-    flex-direction: column;
-    gap: .75rem;
-    align-items: start;
-    color: var(--title-color);
-}
-
-.section_title {
-    color: var(--title-color);
-    font-family: var(--primary-font);
-    font-weight: 600;
-    border-width: 50%;
-}
-
-.desc {
-    font-family: var(--secondary-font);
-    font-size: 16px;
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: 300;
-    text-align: left;
-}
-
-.contact_detils {
-    padding: 1rem;
-    border: 2px solid var(--primary-color);
-    width: 100%;
-    border-radius: 8px;
-}
-
-.contact {
-    margin-top: 0.75rem;
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-    font-family: var(--primary-font);
-    font-weight: 500;
-}
-
-/* =============================================================== */
-.skill_section {
-    background-color: var(--container-color);
-}
-
-.skill_section .section_title {
-    padding-top: 2rem;
-
-    font-size: 2rem;
-    text-align: center;
-}
-
-.tech_sec {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: baseline;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    gap: 3.5rem;
-    padding-top: 5rem;
-    padding-bottom: 3rem;
-    margin-left: 10rem;
-
-}
-
-.tech_skill_div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1rem;
-}
-
-.tech_skill_div h5 {
-    color: var(--title-color);
-    font-family: var(--primary-font);
-    font-size: 1rem;
-}
-
-.tech_skill_div p {
-    color: rgba(255, 255, 255, 0.945);
-    font-family: var(--secondary-font);
-    font-size: 16px;
-}
-
-.skill_icon {
-    color: white;
-    font-size: 2rem;
-    padding: 0.35rem;
-    border-radius: 8px;
-}
-
-.red {
-    background-color: var(--primary-color);
-}
-
-.blue {
-    background-color: blue;
-}
-
-/* ============================================================ */
-.contact_sec {
-    background-color: #1C1A18;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-    padding: 4rem;
-}
-
-.contact_sec form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.75rem;
-}
-
-.contact_sec form input,
-textarea {
-    outline: none;
-    width: 100%;
-    padding: 8px 16px;
-    border-radius: 8px;
-    background-color: #1F1F1F;
-    border: 1.5px solid var(--primary-color);
-    color: var(--primary-color);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

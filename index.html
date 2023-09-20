@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vijayavedhasekaran</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -17,20 +18,18 @@
 
         <ul class="nav_list">
             <li class="nav_item">
-                <a href="#" class="nav_link">About</a>
+                <a href="#home" class="nav_link">Home</a>
             </li>
             <li class="nav_item">
-                <a href="#" class="nav_link">Skills</a>
+                <a href="#about" class="nav_link">About</a>
             </li>
             <li class="nav_item">
-                <a href="#" class="nav_link">Projects</a>
+                <a href="#tech" class="nav_link">My Tech</a>
             </li>
             <li class="nav_item">
-                <a href="#" class="nav_link">Experience </a>
+                <a href="#contact" class="nav_link">Contact </a>
             </li>
-            <li class="nav_item">
-                <a href="#" class="nav_link">Achivements</a>
-            </li>
+
         </ul>
         <div class="hamburger" id="hamburger">
             <div class="bar1"></div>
@@ -39,7 +38,7 @@
         </div>
     </header>
     <main>
-        <section class="hero grid">
+        <section class="hero grid" id="home">
             <div class="hero_details">
                 <div class="hero_title_div">
                     <span class="greet">Hello __</span>
@@ -59,6 +58,81 @@
             <div class="hero_img">
                 <img src="./assets/img/vijayavedhasekaran.png" alt="vijayavedhasekaran Img">
             </div>
+        </section>
+        <section class="about_section" id="#about">
+            <div class="img_sec">
+                <div class="img_content">
+                    <div class="img_div">
+                        <img src="./assets/img/about4.png" width="250px">
+                    </div>
+                </div>
+            </div>
+            <!-- =====================about========================= -->
+            <div class="about_desc" id="about">
+                <h2 class="section_title">About me!</h2>
+                <p class="desc">My name is Vijayavedhasekaran. I'm selfmotivated and enthusiastic web developer who
+                    wants to make
+                    people's ideas come true by developing the ideasinto the real world. Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Molestias id hic consequatur velit, omnis alias aspernatur minima cum
+                    quis corrupti quaerat, maxime quia aut. Eum vel placeat hic ipsum voluptatem!</p>
+                <div class="contact_detils">
+                    <div class="email_div contact">
+                        <i class='bx bx-envelope'></i>
+                        <span>vedhatech02@gmail.com</span>
+                    </div>
+                    <div class="phone_div contact">
+                        <i class='bx bx-phone-call'></i>
+                        <span>8248996382</span>
+                    </div>
+                    <div class="linkedin_div contact">
+                        <i class='bx bxl-linkedin-square'></i>
+                        <span>Vijayavedhasekaran</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ===========================skills============================ -->
+        <section class="skill_section " id="tech">
+            <h2 class="section_title">My Technologies</h2>
+            <div class="tech_sec">
+                <div class="tech_skill_div">
+                    <i class='bx bx-laptop skill_icon red'></i>
+                    <div class="tech_desc_div">
+                        <h5>Front End</h5>
+                        <p>Html/Css/JavaScript</p>
+                    </div>
+                </div>
+                <div class="tech_skill_div">
+                    <i class='bx bx-server skill_icon blue'></i>
+                    <div class="tech_desc_div">
+                        <h5>Backend End</h5>
+                        <p> php/MySQl</p>
+                    </div>
+                </div>
+                <div class="tech_skill_div" style="margin-left: -2rem;">
+                    <i class='bx bxl-wix skill_icon blue'></i>
+                    <div class="tech_desc_div">
+                        <h5>Wix </h5>
+                        <p> no code platform</p>
+                    </div>
+                </div>
+                <div class="tech_skill_div">
+                    <i class='bx bx-mobile-alt skill_icon red'></i>
+                    <div class="tech_desc_div">
+                        <h5>Responsive Design</h5>
+                        <p>design suitable for all deveices</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contact_sec" id="contact">
+            <h2 class="section_title">Connect with me!</h2>
+            <form method="post">
+                <input type="text" placeholder="your name">
+                <input type="text" placeholder="your@mail.com">
+                <textarea name="" id="" cols="30" rows="10" placeholder="enter Your Message"></textarea>
+            </form>
+            <button class="contact_btn">Send</button>
         </section>
     </main>
     <script src="./assets/js/index.js"></script>
